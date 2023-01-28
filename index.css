@@ -1,0 +1,24 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 30px;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.innerbox{
+  width: 600px;
+  height: auto;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 2px;
+}
